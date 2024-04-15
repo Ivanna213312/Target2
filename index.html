@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Консультації</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="consultation-content">
+    <h1>Отримайте консультацію</h1>
+    <p>Залиште ваші контактні дані, і наші фахівці зв'яжуться з вами для консультації.</p>
+    <form action="submit_form.php" method="POST">
+        <div class="input-group">
+            <input type="text" id="name" name="name" required>
+            <label for="name">Ім'я</label>
+        </div>
+        <div class="input-group">
+            <input type="number" id="email" name="email" required>
+            <label for="email">Номер телефону</label>
+        </div>
+        <div class="input-group">
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message">Повідомлення</label>
+        </div>
+        <button type="submit">Надіслати</button>
+    </form>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Компанія. Усі права захищені.</p>
+    </div>
+</footer>
+
+</body>
+</html>
